@@ -32,9 +32,11 @@ or through their github:
 The github for the Arduino/Mbed(MBED Library still in progress of creation) code for the SparkFun will be listed soon!
 Android Studio:
 Create a new project with a basic activity that would act as your main page. Once in, create a new activity, or individual an resource/java class. Make another project with the sample example called BLUETOOTHLEGATT. This is the premise for our bluetooth connection that requires some modification to work. 
+
 -------------------------------------------------------------------------------------------------------
 GPS(AT&T Github):
 This will be posted here on my partner's github:
+
 -------------------------------------------------------------------------------------------------------
 
 Firebase/Firestore:
@@ -54,12 +56,16 @@ Back to the overiew, click on the mobile application required, in this case andr
 Fill in the blanks, the debug signing certificate can be accessed from Android studio project, gradle tab in the right. Go to "Project Name", app, tasks, android and open signingReport. It should run and provide the SHA1 on console. 
 Once the app is registered, download the config file, and place the android app in the following:
 ![Gradle](Screenshots/Gradle.png)
+Double clicking Signing Report should output to console the SHA1 if needed in the firebase download.
+SHA1:00-00-00-..etc
+
 Top left corner of android studio, click on android with the icon next to it, select project, and then go to "Your Application", app, and placed it in App. 
 Once that is done, add the Firebase SDK into the Gradle scripts: build.gradle(Module:app) in dependencies. Then run your app or go to tools, firebase, the section Authettication or Database and connect to the database (requires the config file to work).
 
+-------------------------------------------------------------------------------------------------------------------------------
+Downloading the Android project should allow this to run.
 After implementing the Android project, and completing the other hardware components.
 The end results should give you something like this:
-![Image description](link-to-image)
 ![HeartRateGraph](Screenshots/HeartRateGraph.png)
 ![DiscoHeartRate](Screenshots/DiscoHeartRate.jpg)
 ![Login](Screenshots/Login.jpg)
