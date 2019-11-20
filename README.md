@@ -66,8 +66,9 @@ Once that is done, add the Firebase SDK into the Gradle scripts: build.gradle(Mo
 Downloading the Android project should allow this to run.
 After implementing the Android project, and completing the other hardware components.
 The end results should give you something like this:
-![HeartRateGraph](Screenshots/HeartRateGraph.png)
-![DiscoHeartRate](Screenshots/DiscoHeartRate.jpg)
-![Login](Screenshots/Login.jpg)
-![BluetoothGatt](Screenshots/BluetoothGatt.jpg)
-![ATT_IoT](Screenshots/ATT_IoT.jpg)
+
+![HeartRateGraph](Screenshots/HeartRateGraphA.png) 
+![DiscoHeartRate](Screenshots/DiscoHeartRateA.jpg)
+![Login](Screenshots/LoginA.jpg)
+![BluetoothGatt](Screenshots/BluetoothGattA.jpg)
+![ATT_IoT](Screenshots/ATT_IoTA.jpg)
